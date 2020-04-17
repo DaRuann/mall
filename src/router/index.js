@@ -2,10 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 // 引入组件 路由懒加载
-const Home = () => import('views/home/home')
-const Category = () => import('views/category/category')
-const Cart = () => import('views/cart/cart')
-const Profile = () => import('views/profile/profile')
+const Home = () => import('../views/home/home')
+const Category = () => import('../views/category/category')
+const Cart = () => import('../views/cart/cart')
+const Profile = () => import('../views/profile/profile')
 
 // 1.安装插件
 Vue.use(VueRouter)
